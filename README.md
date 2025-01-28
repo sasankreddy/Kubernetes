@@ -10,8 +10,8 @@ Deployed using the sasankreddy18/wandora:user_service_V1.0 Docker image.
 Handles trip-related functionalities like scheduling and management.
 Deployed using the sasankreddy18/wandora:trip_service_V1.0 Docker image.
 **Registration Service:**
-Manages user registrations and onboarding.
-Deployed using the sasankreddy18/wandora:registration_service_V1.0 Docker image.
+-Manages user registrations and onboarding.
+-Deployed using the sasankreddy18/wandora:registration_service_V1.0 Docker image.
 
 Each service is deployed as a Kubernetes Deployment with **two replicas** to ensure high availability.
 
