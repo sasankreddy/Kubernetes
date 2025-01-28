@@ -30,7 +30,7 @@ Each service is deployed as a Kubernetes Deployment with **two replicas** to ens
 - git clone https://github.com/sasankreddy18/wandora-k8s-deployment.git
 - cd wandora-k8s-deployment
 - **Apply the secret files for all services:**
-kubectl apply -f secrets/
+- kubectl apply -f secrets/
 - **Deploy the services:**
 - kubectl apply -f deployments/
 - kubectl apply -f services/
